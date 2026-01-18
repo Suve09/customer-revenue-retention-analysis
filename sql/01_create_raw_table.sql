@@ -1,0 +1,10 @@
+CREATE TABLE dbo.OnlineRetail_Raw (
+    InvoiceNo     NVARCHAR(50),
+    StockCode     NVARCHAR(50),
+    Description   NVARCHAR(255),
+    Quantity      NVARCHAR(50),
+    InvoiceDate   NVARCHAR(50),
+    UnitPrice     NVARCHAR(50),
+    CustomerID    NVARCHAR(50),
+    Country       NVARCHAR(100)
+)
