@@ -1,33 +1,37 @@
 # Customer Revenue & Retention Analysis
 
-## Business Problem
-Analyze customer purchasing behavior to understand revenue trends, retention patterns, and drivers of customer loyalty.
+## Business Objective  
+Understand customer purchase behavior and retention over time to identify revenue trends and loyalty patterns.
 
-## Dataset
-Online Retail transactional data (2009–2011).
+## Tools Used  
+- **SQL Server** – data cleaning, transformation, KPI calculations  
+- **Excel** – KPI outputs and intermediate analysis  
+- **Tableau** – executive dashboard visualizations
 
-## Tools Used
-SQL Server (data cleaning, aggregation, KPIs)
-Excel (intermediate outputs)
-Tableau (dashboard & visualization)
+## Dataset  
+Online Retail transactional dataset (invoice-level customer purchases, 2009–2011).
 
-## Key Metrics
-Monthly Revenue
-Active Customers
-Customer Retention Rate
-One-Time vs Repeat Customers (count + revenue)
+## Key KPIs  
+| Metric | Value |
+|--------|-------|
+| Avg Monthly Revenue | ~$686.33K |
+| Avg Active Customers | ~1,008 |
+| Avg Retention Rate | ~38.91% |
 
-## Key Insights
-Average customer retention is ~39%, indicating moderate loyalty.
-Revenue growth is primarily driven by increases in active customers.
-Retention remains relatively stable over time with seasonal fluctuations.
+## Key Insights  
+- Total revenue fluctuates but shows seasonal peaks.  
+- Active customers trend upward over time, driving revenue more than retention.  
+- Retention remains moderate and fairly stable, indicating potential loyalty improvement opportunities.
 
-## Business Recommendations
-Convert one-time buyers into repeat customers using first-repeat incentives and loyalty offers.
-Protect high-value repeat customers with targeted retention campaigns.
-Use seasonal demand patterns to plan promotions and inventory decisions.
+## Business Recommendations  
+- Implement loyalty programs to improve retention.  
+- Focus marketing during seasonal revenue peaks.  
+- Use customer segmentation to personalize offers for repeat buyers.
 
-## Deliverables
-SQL scripts for data cleaning and analysis
-Excel KPI outputs
-Tableau dashboard summarizing trends and insights
+## Deliverables  
+- SQL scripts for analysis (`/sql` folder)  
+- KPI output Excel file (`/excel` folder)  
+- Tableau dashboard summarizing trends (`/tableau` folder)
+
+## Tableau Dashboard
+https://public.tableau.com/views/CustomerRevenueRetention/MonthlyRevenue?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
